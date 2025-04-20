@@ -1,3 +1,11 @@
+"""
+Simple Sed ( Linux / Unix Text Processor Command)
+Basic Functions :
+[+] Read String
+[+] Replace String
+[+] Delete String
+[+] Search For String Indexes
+"""
 class Sed:
     def __init__(self, filepath: str):
         with open(filepath, "r") as file:
